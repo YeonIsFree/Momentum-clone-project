@@ -1,0 +1,104 @@
+.hidden {
+  display: none;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.top-row {
+  height: 10%;
+}
+.center-row {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-row {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#logout:first-child {
+  margin: 10px;
+  font-size: 20px;
+  color: ghostwhite;
+}
+#logout:first-child:hover {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#greeting > input {
+  color: ghostwhite;
+  font-size: 35px;
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 40px;
+  width: 320px;
+}
+#greeting > input::placeholder {
+  font-size: 35px;
+  color: ghostwhite;
+}
+
+#weather {
+  display: flex;
+  align-items: center;
+  font-style: oblique;
+  font-size: 20px;
+  color: ghostwhite;
+  margin: 10px;
+}
+#weather > div {
+  margin-left: 10px;
+}
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-clock {
+  font-size: 180px;
+  color: ghostwhite;
+}
+#seconds-clock {
+  font-size: 60px;
+  color: ghostwhite;
+}
+#hello {
+  font-size: 40px;
+  color: ghostwhite;
+}
+
+#todo-form > input {
+  color: ghostwhite;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+#todo-form > input::placeholder {
+  font-size: 20px;
+  color: ghostwhite;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  color: ghostwhite;
+  font-size: 20px;
+}
+
+li > i {
+  font-size: 18px;
+}
+
+li > i:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
