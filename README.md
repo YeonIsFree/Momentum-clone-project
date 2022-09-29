@@ -9,4 +9,4 @@
 * 현재 날씨 불러오기
 
 ## 배포
-* Gitpage
+* Gihub-pages
